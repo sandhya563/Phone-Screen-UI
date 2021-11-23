@@ -1,0 +1,383 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  background-color: #2c1190;
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  width: 100vw;
+  /* overflow: hidden; */
+}
+.overall {
+  position: relative;
+  background-color: #2c1190;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.header {
+  background-color: #2c1190;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 7%;
+}
+
+.users_prof {
+  display: flex;
+  height: 2rem;
+  width: 6rem;
+  border: 1px solid #fff;
+  background-color: #7c71a3;
+  border-radius: 20px;
+  margin: 0 0 0 5px;
+}
+
+.prof_img {
+  height: 2rem;
+  width: 2rem;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+.text1 {
+  color: #fff;
+  font-weight: 400;
+  justify-content: center;
+  align-items: center;
+  font-size: 8px;
+  padding: 0 5%;
+}
+
+.home-icon {
+  width: 8.83px;
+  height: 7.09px;
+  margin-top: -5px;
+}
+.all_img {
+  display: flex;
+  justify-content: right;
+  width: 39%;
+  padding: 0;
+}
+.prof {
+  z-index: 999;
+  margin-left: 5%;
+  border: none;
+}
+.user-img {
+  display: inline-block;
+  margin: 0 -5%;
+  height: 2rem;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+.prof-1 {
+  z-index: 8;
+}
+.prof-2 {
+  z-index: 7;
+}
+.prof-3 {
+  z-index: 6;
+}
+.prof-4 {
+  z-index: 5;
+}
+.prof-5 {
+  z-index: 4;
+}
+.img-icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: -1.6rem;
+  border: 3px solid #fdf2e9;
+  background-color: #a831ff #00b3ff;
+}
+
+.cross_icon img {
+  display: flex;
+  position: fixed;
+  justify-content: right;
+  margin-top: -5px;
+  margin-right: 8px;
+  height: 1rem;
+  width: 1rem;
+  right: 10px;
+}
+
+.all_chair {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 20.5%;
+}
+.img_icon1 {
+  position: relative;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.photo {
+  height: 100%;
+  width: 100%;
+}
+.img_icon1 .host_icon {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 1.2rem;
+  top: 3%;
+  left: 9%;
+  color: #fff;
+  border-radius: 10px;
+  background-color: #0aadf3c4;
+  font-size: 8px;
+}
+.img_icon1 .profile2 {
+  position: absolute;
+  object-fit: contain;
+  height: 2rem;
+  width: 2rem;
+  bottom: 6%;
+  left: 7%;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+.text2 {
+  position: absolute;
+  bottom: 8%;
+  /* right: 4%; */
+  height: 2rem;
+  width: 3.5rem;
+  color: #fff;
+  font-size: 12px;
+  margin: 0 0 0 43px;
+}
+.text2 img {
+  height: 10px;
+  width: 10px;
+}
+.chair1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  background-color: #1c1a69;
+  border: 1px solid #2c1190;
+}
+.chair1 p {
+  display: flex;
+  position: absolute;
+  padding-bottom: 8%;
+  font-size: 11px;
+}
+.img_icon2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 20.5%;
+}
+.chairs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  min-width: 30%;
+  padding: 25px;
+  border: 1px solid #6147be;
+  background-color: #1c1a69;
+  color: #fff;
+}
+.img_icon {
+  margin-bottom: -6px;
+  height: 130px;
+  width: 137px;
+  /* zoom: 0.5; */
+}
+.all_info {
+  background-image: linear-gradient(#2c1190, #5e1571);
+  height: 52%;
+  position: relative;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.text-box {
+  display: flex;
+  padding: 5%;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+.text_box p {
+  position: absolute;
+  bottom: 25%;
+  width: 79%;
+  line-height: 1rem;
+  display: flex;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.425);
+  font-weight: 400;
+  justify-content: center;
+  padding: 15px;
+}
+.img_emoge {
+  position: absolute;
+  bottom: 19%;
+  left: 1%;
+  width: 84%;
+  display: flex;
+  justify-content: center;
+}
+.emogs {
+  display: flex;
+  height: 16px;
+  width: 16px;
+  margin: 3% 3%;
+}
+.phone-icon {
+  display: flex;
+  position: absolute;
+  bottom: 19%;
+  right: 5%;
+  flex-direction: column;
+}
+.phone_icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  margin-top: 14%;
+  background-color: #0000009c;
+}
+.phone_icons img {
+  object-fit: contain;
+  height: 1.3rem;
+  width: 1rem;
+}
+.input-box {
+  position: absolute;
+  width: 100%;
+  height: 42px;
+  bottom: 5%;
+  display: flex;
+  justify-content: center;
+}
+.input-box .text {
+  width: 90%;
+  height: 100%;
+  border: none;
+  border-radius: 21px;
+  color: #666666;
+  background-color: #e9e9e9;
+  padding-left: 5%;
+}
+.input-box img {
+  display: flex;
+  position: absolute;
+  bottom: 25%;
+  right: 9%;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  color: #666666;
+  background-color: beige;
+}
+
+.input_box {
+  position: absolute;
+  width: 100%;
+  height: 42px;
+  bottom: 3%;
+  display: flex;
+  justify-content: center;
+}
+
+.input_box input {
+  width: 90%;
+  height: 100%;
+  border: none;
+  border-radius: 21px;
+  color: #666666;
+  background-color: #e9e9e9;
+  padding-left: 5%;
+}
+
+.input_box img {
+  display: flex;
+  position: absolute;
+  bottom: 25%;
+  right: 9%;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  color: #666666;
+  background-color: beige;
+}
+.red-icon {
+  position: absolute;
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  top: -1%;
+  height: 17px;
+  width: 17px;
+  background-color: red;
+  border: 0.5px solid#fff;
+  border-radius: 50%;
+  font-size: 11px;
+}
+.name {
+  margin-top: 3px;
+  margin-left: -0px;
+}
+.num {
+  display: flex;
+  margin-top: -13px;
+  margin-left: 11px;
+  gap: 1px;
+}
+@media (max-width: 425px) {
+  .overall {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+  }
+}
+@media (max-width: 411px) {
+  .all_img {
+    width: 35%;
+    /* position: absolute; 
+    right: 35px; */
+  }
+}
+@media (max-width: 320px) {
+  .all_img {
+    width: 28%;
+  }
+}
+@media (max-width: 360px) {
+  .all_img {
+    width: 44%;
+  }
+}
